@@ -1,39 +1,30 @@
 
-# Project name goes here
+# PyPlate - A boilerplate for new Python projects
 
-This template serves as a starting point for Python projects, including essential utilities, directory structure, and boilerplate code for various tasks.
+This template serves as a starting point for Python projects, including essential utilities, directory structure, and example code for various repetitive tasks.
 
 # To build your own project from this template
 
-1. **Clone it:**
+## 1. Create your own repo
 
-    ```bash
-    git clone git@github.com:tollefj/pyplate.git
-    ```
+## 2. Clone this repo into a new project folder
 
-2. **Disconnect it:**
+```bash
+git clone git@github.com:tollefj/pyplate.git MYPROJECT
+cd MYPROJECT
+```
 
-     ```bash
-     git remote remove origin
-     git remote add origin <your_repository_url>
-     ```
+## 3. Run the setup script `make new`
 
-3. **Make changes:**
+Or manually:
 
-     ```bash
-     git add .
-     git commit -m "Customize the boilerplate for my project"
-     ```
+```bash
+git remote remove origin
+git remote add origin <your repo url>
+git push --set-upstream origin main
+```
 
-4. **Create your own repository:**
-
-5. **Push:**
-
-     ```bash
-     git push -u origin master
-     ```
-
-## Running stuff
+# Running stuff
 
 ```bash
 make setup

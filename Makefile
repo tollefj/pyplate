@@ -27,3 +27,9 @@ setup:
 
 install-req:
 	pip install -r requirements/requirements_$(TASK).txt
+
+new:
+	@read -p "Enter your repository URL: " repository_url; \
+	git remote remove origin && \
+	git remote add origin $$repository_url && \
+	git push --set-upstream origin main
