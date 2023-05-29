@@ -3,22 +3,17 @@
 
 This template serves as a starting point for Python projects, including essential utilities, directory structure, and example code for various repetitive tasks.
 
-# To build your own project from this template
+# To build your own project
 
-## 1. Create your own repo
+Simply click on the green "Use this template" button on the top of this page.
 
-## 2. Clone this repo into a new project folder
+... Or, if you prefer the manual way, create a new repo on GitHub, then run the following commands:
 
 ```bash
 git clone git@github.com:tollefj/pyplate.git MYPROJECT
+
 cd MYPROJECT
-```
 
-## 3. Run the setup script `make new`
-
-Or manually:
-
-```bash
 git remote remove origin
 git remote add origin <your repo url>
 git push --set-upstream origin main
